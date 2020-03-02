@@ -1,0 +1,72 @@
+.bodyDiv, body{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.bgOrange{
+    background-color: #ED553E;
+    width: 100%;
+}
+
+.header{
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding-top: 10pt;
+}
+
+.Target-container{
+    display: flex;
+    justify-content: center;
+}
+
+.eLogo{
+    margin: 16pt;
+    margin-left: 30pt;
+    width:70pt;
+}
+
+.BudLightLogo{
+    width:110pt;
+    margin: 16pt;
+}
+
+.Logo-container{
+    background: red;
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .divTarg{
+      width:100%;
+  }
+
+  .targetBg{
+      width:100%;
+      height: 100%;
+      background-image: url(../assets/img/Target.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .divQR{
+        width:50%;
+        align-items: center;
+    }
+
+    .targetBg>div:not(:first-child){
+        width:100%;
+    }
+
+  
