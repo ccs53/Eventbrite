@@ -42,11 +42,11 @@ The design was made with [Sketch](https://www.sketch.com/ "Sketch"), a digital d
 
 ### Babel
 
-Babel can convert JSX syntax that is in the proyect and make it compatible with older browsers or environments.
+[Babel](https://babeljs.io/ "Babel") can convert JSX syntax that is in the proyect and make it compatible with older browsers or environments.
 
 ### Parcel
 
-**ParcelJS** has been used as a web application bundler for offering blazing-fast performance.
+[ParcelJS](https://parceljs.org/ "ParcelJS") has been used as a web application bundler for offering blazing-fast performance.
 
 ### React
 
@@ -95,7 +95,7 @@ const Targets = () => {
 
 ### Framer Motion
 
-For animate the logo I used **Framer Motion**, an open source **React** library to power production-ready animations.
+For animate the logo I used [Framer Motion](https://www.framer.com/motion/ "Framer Motion"), an open source **React** library to power production-ready animations.
 
 ~~~~
 import {motion} from 'framer-motion'
