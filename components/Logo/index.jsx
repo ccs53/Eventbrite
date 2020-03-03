@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import BudLightLogo from '../../assets/img/LogoBudLight.svg'
 import {motion, useAnimation} from 'framer-motion'
-import logoEven from '../../assets/img/LogoEvenbrite.svg'
+import logoEven from '../../assets/img/logo-orange-circle.png'
 
 
 

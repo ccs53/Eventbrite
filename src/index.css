@@ -1,72 +1,163 @@
-.bodyDiv, body{
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.bodyDiv,
+body {
     box-sizing: border-box;
     width: 100%;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    min-width: 320px;
+    height: 100%;
 }
 
-.caja{
+.caja {
     width: 100px;
     height: 100px;
     background-color: red;
 }
 
-.bgOrange{
+.bgOrange {
     background-color: #ED553E;
-    width: 100%;
+    height:55%;
 }
 
-.header{
-    width:100%;
+.White {
+    color: white;
+}
+
+.header {
+    width: 100%;
     display: flex;
     align-items: center;
     padding-top: 10pt;
 }
 
-.Target-container{
+.Target-container {
     display: flex;
     justify-content: center;
+    height:70%;
 }
 
-.eLogo{
+.eLogo {
+    margin: 16pt 0pt 16pt 30pt;
+    width: 40pt;
+}
+
+.BudLightLogo {
+    width: 70pt;
     margin: 16pt;
-    margin-left: 30pt;
-    width:70pt;
 }
 
-.BudLightLogo{
-    width:110pt;
-    margin: 16pt;
-}
-
-.Logo-container{
+.Logo-container {
     background: red;
     border-radius: 30px;
     width: 150px;
     height: 150px;
-  }
+}
 
-  .divTarg{
-      width:100%;
-  }
+.divTarg {
+    width: 100%;
+}
 
-  .targetBg{
-      width:100%;
-      height: 100%;
-      background-image: url(../assets/img/Target.svg);
-      background-repeat: no-repeat;
-      background-size: 100%;
-      display: flex;
-      flex-direction: column;
-      
-    }
+.targetBg {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 3em;
+}
 
-    .divQR{
-        width:50%;
-        align-items: center;
-    }
+.targetBg>p {
+    font-size: 16px;
+}
 
-    .targetBg>div:not(:first-child){
-        width:100%;
-    }
+.divQR {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
 
-  
+.QRImg {
+    width: 50%;
+}
+
+.targetMenu {
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+}
+
+.pagMenu {
+    background-color: white;
+    border-radius: 10px;
+    width: 82px;
+    height: 100%;
+    padding: 0;
+}
+
+.pagMenu>p {
+    font-size: 12pt;
+    color: #333333;
+    text-align: center;
+    padding: 0;
+    margin: 8px;
+}
+
+.tresPts{
+    width:40px;
+}
+
+.tickNum {
+    margin-top: 30px;
+}
+
+.targetBg>div p:nth-child(2),
+.mail {
+    padding: 0;
+    margin-top: -12px;
+    font-size: 16pt;
+}
+
+.price{
+    font-size:20pt;
+}
+
+.targetBg>div p:nth-child(1) {
+    color:#909090;
+    font-size:12pt;
+}
+
+.mobileContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.txtAlign{
+    text-align: start;
+}
+
+.mail{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 80%;
+}
+
+.index{
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+
+button{
+    border-radius: 10px;
+    font-size: 12pt;
+    color:white;
+    padding:4px 20px;
+    margin-top: 8px;
+    border-color: #ED553E;
+    background-color: #ED553E;
+}
+
