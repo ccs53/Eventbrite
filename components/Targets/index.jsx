@@ -117,9 +117,7 @@ const Targets = () => {
             </div>
         </Carousel>
     </div>   
-    </motion.div>
-    
-    
+    </motion.div>    
 }
 
 export default Targets
