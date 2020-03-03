@@ -1,9 +1,7 @@
 import React, {useState} from "react"
 import BudLightLogo from '../../assets/img/LogoBudLight.svg'
+import EventLogo from '../../assets/img/logo-orange-circle.png'
 import {motion, useAnimation} from 'framer-motion'
-import logoEven from '../../assets/img/logo-orange-circle.png'
-
-
 
 const Logo = () => {
 
@@ -21,9 +19,9 @@ const Logo = () => {
     logoControls.start(logoVariants.animation)
 
     return <motion.div  initial={{height: '100%'}} animate={headerControls} className="header"> 
-                <img className="eLogo" src={logoEven} alt="LogoEvenbrite" />
+                <img className="eLogo" src={EventLogo} alt="LogoEvenbrite" />
             <motion.div initial={{scale: 5, x: '150%'}} animate={logoControls}>
-            <img className="BudLightLogo" src={BudLightLogo} alt="BudLightLogo" />
+                <img className="budLightLogo" src={BudLightLogo} alt="BudLightLogo" />
             </motion.div>
                 
         </motion.div>

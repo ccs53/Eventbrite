@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/** APP COMPONENT **/
+
 .bodyDiv,
 body {
     box-sizing: border-box;
@@ -10,20 +12,12 @@ body {
     height: 100%;
 }
 
-.caja {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-
 .bgOrange {
     background-color: #ED553E;
     height:55%;
 }
 
-.White {
-    color: white;
-}
+/** LOGO COMPONENT **/
 
 .header {
     width: 100%;
@@ -32,20 +26,30 @@ body {
     padding-top: 10pt;
 }
 
-.Target-container {
-    display: flex;
-    justify-content: center;
-    height:70%;
-}
-
 .eLogo {
     margin: 16pt 0pt 16pt 30pt;
     width: 40pt;
 }
 
-.BudLightLogo {
+.budLightLogo {
     width: 70pt;
     margin: 16pt;
+}
+
+/** TARGETS COMPONENT **/
+
+.pagMenu {
+    background-color: white;
+    border-radius: 10px;
+    width: 82px;
+    height: 100%;
+    padding: 0;
+}
+
+.Target-container {
+    display: flex;
+    justify-content: center;
+    height:70%;
 }
 
 .Logo-container {
@@ -85,14 +89,6 @@ body {
     display: flex;
     justify-content: space-between;
     height: 5%;
-}
-
-.pagMenu {
-    background-color: white;
-    border-radius: 10px;
-    width: 82px;
-    height: 100%;
-    padding: 0;
 }
 
 .pagMenu>p {
@@ -160,4 +156,6 @@ button{
     border-color: #ED553E;
     background-color: #ED553E;
 }
+
+/** FEATURES COMPONENT **/
 

@@ -36,7 +36,7 @@ const Targets = () => {
                 <img className="index" src={Ticket} alt="DivTarget" />
                     <div className="targetMenu">
                         <div className="pagMenu">
-                            <p className="White">1/2</p>
+                            <p>1/2</p>
                         </div>
                         <div className="tresPts">
                             <img className="svgPts" src={svgPts} alt="DivTarget" />
