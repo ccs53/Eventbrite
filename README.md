@@ -34,7 +34,7 @@ The project has been created with some of the latest technologies used today bas
 
 ### Git
 
-I have used **Git** has a version control system to store all the versions.
+I have used **Git** as a version control system to store all the versions.
 
 ### Sketch
 
